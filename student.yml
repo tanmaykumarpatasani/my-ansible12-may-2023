@@ -1,0 +1,23 @@
+
+---
+student: 
+- name:  anil
+  ph.no: 12346789
+  address:
+   doorno: 23
+   street: 3
+   pincode: 56789
+
+- name:  sunil
+  ph.no: 875456
+  address:
+   doorno: 35
+   street: 8
+   pincode: 675903
+
+- name:  venil
+  ph.no: 647289879
+  address: 
+   doorno: 56
+   street: 10
+   pincode: 54683
