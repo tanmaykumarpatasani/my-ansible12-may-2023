@@ -13,4 +13,9 @@
   - name: i want to install tree   on ubuntu ansible nodes
     apt:
      name: tree
+     state: present 
+     
+  - name : i want to install wget on ubuntu ansible nodes
+    apt:
+     name: wget
      state: present
