@@ -15,9 +15,17 @@ student:
    street: 8
    pincode: 675903
 
+- name:  venil
+  ph.no: 647289879
+  address: 
+   doorno: 6
+   street: 10
+   pincode: 54673
+   
 - name:  kenil
   ph.no: 647289879
   address: 
    doorno: 65
    street: 10
    pincode: 54673
+
