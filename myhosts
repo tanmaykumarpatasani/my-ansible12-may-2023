@@ -1,2 +1,15 @@
+
+
+
+
+
+
+[mywebservers]
 172.31.44.175
 172.31.34.218
+
+[myappservers]
+
+
+
+[mydtabaseservers]
