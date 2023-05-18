@@ -13,3 +13,9 @@
 
 
 [mydtabaseservers]
+
+
+
+[mywebservers:vars]
+myvar1= apache2
+myvar2= httpd
