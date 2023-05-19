@@ -22,6 +22,6 @@
      name: "{{myvar2}}"
      state: started
     when: ansible_os_family == "RedHat" 
-      
+ 
 
      

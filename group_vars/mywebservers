@@ -1,0 +1,5 @@
+---
+myvar1: apache2
+myvar2: httpd
+myjavaubuntu : openjdk-8-jdk
+myjavaredhat: java-1.8.0-amazon-corretto-devel
