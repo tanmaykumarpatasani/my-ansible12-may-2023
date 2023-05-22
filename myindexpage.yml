@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.40.101
+  become: yes
+  tasks:
+  - name: copy index file into nodes 
+    copy:
+     src: myindexpage
+     dest: /var/www/html/indexhtml
