@@ -1,0 +1,14 @@
+---
+- hosts: 172.31.44.175
+  become: yes
+  tasks:
+  - include: myfile.yml
+  - name: i want install webserver
+    apt:
+     name: apache2
+     state: present
+  - name: copy index file into nodes 
+    copy:
+     src:
+     dest: /var/www/html/indexhtml
+     
