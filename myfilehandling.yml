@@ -9,6 +9,5 @@
      state: present
   - name: copy index file into nodes 
     copy:
-     src:
+     src: myindexpage
      dest: /var/www/html/indexhtml
-     
