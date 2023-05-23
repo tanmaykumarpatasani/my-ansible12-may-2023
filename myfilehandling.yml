@@ -10,4 +10,4 @@
   - name: copy index file into nodes 
     copy:
      src: myindexpage
-     dest: /var/www/html/indexhtml
+     dest:  /var/www/html/index.html
