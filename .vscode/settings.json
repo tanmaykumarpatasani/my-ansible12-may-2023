@@ -3,5 +3,11 @@
         "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": "file:///c%3A/Users/tanma/Desktop/my%20ansible12%20may%202023/mywebsrole/tasks/main.yml",
         "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible-lint-config.json": "file:///c%3A/Users/tanma/Desktop/my%20ansible12%20may%202023/myfilehandling.yml"
     },
-    "ansible.python.interpreterPath": "c:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe"
+    "ansible.executionEnvironment.enabled": true,
+    "ansible.python.interpreterPath": "c:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+    "ansible.executionEnvironment.containerEngine": "docker",
+    "ansible.validation.lint.enabled": true,
+    "python.terminal.launchArgs": [
+
+    ]
 }
