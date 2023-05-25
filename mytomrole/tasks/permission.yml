@@ -1,0 +1,5 @@
+---
+- name: grant tomcat ownership over the extracted folders
+  command: sudo chown -R tomcat:tomcat /opt/tomcat/
+- name: grant execute permission.yml
+  command: sudo chmod -R u+x /opt/tomcat/bin
