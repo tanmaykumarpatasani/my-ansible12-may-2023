@@ -10,7 +10,25 @@
     "ansible.validation.lint.arguments": "ansible-lint",
     "ansible.executionEnvironment.enabled": false,
     "ansible.python.interpreterPath": "c:\\Users\\tanma\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
-    "git.terminalGitEditor": true
+    "git.terminalGitEditor": true,
+    "terminal.integrated.profiles.windows": {
+        
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    }
 }
 
  
