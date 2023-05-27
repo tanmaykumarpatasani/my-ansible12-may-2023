@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/tasks": "file:///c%3A/Users/tanma/Desktop/my%20ansible12%20may%202023/mytomrole/tasks/main.yml"
-    }
-}

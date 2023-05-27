@@ -1,0 +1,6 @@
+---
+- name: deploy java in webapps 
+  get_url:
+     url: https://gudu24may23.s3.ap-south-1.amazonaws.com/login.war
+     dest: /opt/tomcat/webapps/login.war
+     force_basic_auth: yes

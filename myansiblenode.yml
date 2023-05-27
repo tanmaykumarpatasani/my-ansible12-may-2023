@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - name: creat an ansible node
+    ec2:
+     key_name: myasiamumbaikey
+     instance_type: t2.micro
+     image: ami-02c9a56bc625246aa
+     wait: yes
+     group: ansibleall
+     count: 2
+     vpc_subnet_id: subnet-000104e416c264e52
+     assign_public_ip: yes
+     region: ap-south-1
+     instance_tags:
+      Name: Ansiblenode
